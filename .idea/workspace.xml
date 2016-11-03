@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb4e265b-bba9-4c36-8e08-4a18ae3b9b56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile.html" afterPath="$PROJECT_DIR$/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile_style.css" afterPath="$PROJECT_DIR$/profile_style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile_style.css.map" afterPath="$PROJECT_DIR$/profile_style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile_style.scss" afterPath="$PROJECT_DIR$/profile_style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-3.1.1.min.js" />
     </list>
     <ignored path="ww95.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="new_style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_style.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -349,12 +333,12 @@
       <updated>1478151137827</updated>
       <workItem from="1478151139228" duration="749000" />
       <workItem from="1478153638507" duration="7220000" />
-      <workItem from="1478163129943" duration="3058000" />
+      <workItem from="1478163129943" duration="3175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11027000" />
+    <option name="totallyTimeSpent" value="11144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1024" height="768" extended-state="0" />
@@ -568,6 +552,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-3.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
