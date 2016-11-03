@@ -1,0 +1,10 @@
+@mixin float-margin($margin, $float){
+  @if $float == 'right'{
+   float: right;
+    margin:2 * $margin;
+  }
+  @else{
+    float: left;
+    margin: $margin;
+  }
+}

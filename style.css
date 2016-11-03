@@ -1,0 +1,138 @@
+body{
+    background-color: #fafafa;
+    /*background-image: url("Wallpaper/across_the_floors_of_union_station-wallpaper-1366x768.jpg");*/
+    /*background-repeat: no-repeat;*/
+    height: 100%;
+    width: 100%;
+    font-family: 'lato';
+}
+
+body:hover{
+}
+
+body:lang(fa){
+    float: right;
+    direction: rtl;
+}
+
+body:lang(en){
+    float: left;
+    direction: ltr;
+}
+
+.hello{
+    border: 2px solid blueviolet;
+    border-radius: 1rem;
+    width: 40rem;
+    height: 10rem;
+    font-size: 2rem;
+    color: rgb(130, 83, 13);
+    background-color: aqua;
+    margin: 2rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    /*line-height: 10rem;*/
+}
+
+.circle{
+    width:20rem;
+    height:20rem;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+}
+
+.inputA{
+    width:100%;
+    height:3rem;
+    border:1px solid #dbdbdb;
+    border-radius: 3px;
+    text-indent: 1rem;
+    background-color: transparent;
+    /*direction: rtl;*/
+    margin-bottom: 1.5rem;
+}
+
+.inputA:focus{
+    border: 1px solid #efefef;
+    outline: none;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color:#3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 3px;
+    cursor: pointer;
+    /*border: 0;*/
+
+}
+
+
+.login{
+    background-color: white;
+    width: 21.875rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #efefef;
+    margin-top: 3rem;
+}
+
+form{
+    width: 80%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+.form-img{
+    background-image: url("dd822c.png");
+    background-position: -520px -268px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    height: 3.3rem;
+    width: 11rem;
+}
+
+.fix{
+    background-color: #3897f0;
+    height: 2rem;
+    width: 4rem;
+    position: fixed;
+    top: 3rem;
+    right: 3rem;
+}
+
+.absolute{
+    background-color: #3897f0;
+    height: 2rem;
+    width: 6rem;
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+}
+
+.forget{
+    color: #3897f0;
+    position: absolute;
+    top:5.7rem;
+    right: 0rem;
+    text-decoration: none;
+}
+
+.signup{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.signup p{
+    color: #867171;
+}
