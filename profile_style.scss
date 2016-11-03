@@ -56,9 +56,33 @@ body{
         width: 20%;
         height: 90%;
         margin: 2%;
+        filter : grayscale(100%);
+        transition: 2s;
+
+        &:hover{
+          filter: grayscale(0%);
+        }
       }
 
     }
+  }
+
+  .plus{
+    width:3rem;
+    height: 3rem;
+    background-color: greenyellow;
+    margin: 1rem;
+  }
+
+  .content{
+    height: 5rem;
+    width:5rem;
+    margin: 2rem;
+    background-color: brown;
+  }
+
+  .border{
+    border: 3px dashed cornflowerblue;
   }
 
 }

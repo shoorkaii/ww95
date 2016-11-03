@@ -39,6 +39,22 @@ body {
       body .gallery .thumb-list .thumb {
         width: 20%;
         height: 90%;
-        margin: 2%; }
+        margin: 2%;
+        filter: grayscale(100%);
+        transition: 2s; }
+        body .gallery .thumb-list .thumb:hover {
+          filter: grayscale(0%); }
+  body .plus {
+    width: 3rem;
+    height: 3rem;
+    background-color: greenyellow;
+    margin: 1rem; }
+  body .content {
+    height: 5rem;
+    width: 5rem;
+    margin: 2rem;
+    background-color: brown; }
+  body .border {
+    border: 3px dashed cornflowerblue; }
 
 /*# sourceMappingURL=profile_style.css.map */
