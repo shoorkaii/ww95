@@ -20,4 +20,16 @@ body{
     @extend .sq;
     width: 15rem;
   }
+
+  #text{
+    height: 10rem;
+    width:5rem;
+    background-color: aquamarine;
+  }
+
+  #my_text{
+    height: 2rem;
+    width: 2rem;
+    background-color: blueviolet;
+  }
 }

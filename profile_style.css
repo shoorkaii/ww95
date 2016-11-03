@@ -13,5 +13,13 @@ body .sq, body .x {
   border-radius: 0; }
 body .x {
   width: 15rem; }
+body #text {
+  height: 10rem;
+  width: 5rem;
+  background-color: aquamarine; }
+body #my_text {
+  height: 2rem;
+  width: 2rem;
+  background-color: blueviolet; }
 
 /*# sourceMappingURL=profile_style.css.map */
