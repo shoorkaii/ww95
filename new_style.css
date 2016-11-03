@@ -1,6 +1,18 @@
-body {
-  background-color: #fafafa;
-  font-size: 2rem; }
+body .shape {
+  border: 2px solid gray;
+  margin: 1rem; }
+body .circle {
+  height: 5rem;
+  width: 5rem;
+  background-color: red;
+  border-radius: 50%; }
+body .sq, body .x {
+  height: 10rem;
+  width: 10rem;
+  background-color: blue;
+  border-radius: 0; }
+body .x {
+  width: 15rem; }
 
 @font-face {
   src: url("lato-fonts/Lato-Regular.woff2");

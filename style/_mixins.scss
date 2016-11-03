@@ -8,3 +8,11 @@
     margin: $margin;
   }
 }
+
+@mixin shape($size, $color, $border-radius){
+
+  height:$size;
+  width: $size;
+  background-color: $color;
+  border-radius: $border-radius;
+}

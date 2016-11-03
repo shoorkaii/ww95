@@ -1,0 +1,23 @@
+@import "style/mixins";
+body{
+  //background-color: $light-gray;
+  //font-size: 2rem;
+
+  .shape{
+    border: 2px solid gray;
+    margin: 1rem;
+  }
+
+  .circle{
+    @include shape(5rem, red, 50%);
+  }
+
+  .sq{
+    @include shape(10rem, blue, 0);
+  }
+
+  .x{
+    @extend .sq;
+    width: 15rem;
+  }
+}
