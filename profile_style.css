@@ -1,25 +1,44 @@
-body .shape {
-  border: 2px solid gray;
-  margin: 1rem; }
-body .circle {
-  height: 5rem;
-  width: 5rem;
-  background-color: red;
-  border-radius: 50%; }
-body .sq, body .x {
-  height: 10rem;
-  width: 10rem;
-  background-color: blue;
-  border-radius: 0; }
-body .x {
-  width: 15rem; }
-body #text {
-  height: 10rem;
-  width: 5rem;
-  background-color: aquamarine; }
-body #my_text {
-  height: 2rem;
-  width: 2rem;
-  background-color: blueviolet; }
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+  body .shape {
+    border: 2px solid gray;
+    margin: 1rem; }
+  body .circle {
+    height: 5rem;
+    width: 5rem;
+    background-color: red;
+    border-radius: 50%; }
+  body .sq, body .x {
+    height: 10rem;
+    width: 10rem;
+    background-color: blue;
+    border-radius: 0; }
+  body .x {
+    width: 15rem; }
+  body #text {
+    height: 10rem;
+    width: 5rem;
+    background-color: aquamarine; }
+  body #my_text {
+    height: 2rem;
+    width: 2rem;
+    background-color: blueviolet; }
+  body .gallery {
+    width: 95%;
+    height: auto; }
+    body .gallery .big-img {
+      width: 90%;
+      height: 20rem;
+      background-color: orange; }
+    body .gallery .thumb-list {
+      width: 80%;
+      height: 7rem; }
+      body .gallery .thumb-list .thumb {
+        width: 20%;
+        height: 90%;
+        margin: 2%; }
 
 /*# sourceMappingURL=profile_style.css.map */

@@ -3,6 +3,11 @@ body{
   //background-color: $light-gray;
   //font-size: 2rem;
 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
   .shape{
     border: 2px solid gray;
     margin: 1rem;
@@ -32,4 +37,28 @@ body{
     width: 2rem;
     background-color: blueviolet;
   }
+
+  .gallery{
+
+    .big-img{
+      width: 90%;
+      height: 20rem;
+      background-color: orange;
+    }
+
+    width: 95%;
+    height: auto;
+    .thumb-list{
+      width: 80%;
+      height: 7rem;
+
+      .thumb{
+        width: 20%;
+        height: 90%;
+        margin: 2%;
+      }
+
+    }
+  }
+
 }
