@@ -2,15 +2,16 @@
  * Created by reza on 11/3/16.
  */
 
-// var t = document.getElementById('text').innerHTML;
-// document.getElementById('my_text').innerHTML = t;
-// console.log(t);
+$('#text').css('background-color','blue');
 
-// var cnt = 0;
-//
-// function salam() {
-//     cnt = cnt + 1;
-//     document.getElementById('my_text').innerHTML = cnt;
-// }
+var my_text = $('#my_text');
 
-document.getElementById('text').setAttribute('style', ('background-color :red;'));
+var w = my_text.width();
+var cnt = 1;
+
+$('#text').click(function () {
+    cnt++;
+    my_text.css('width', w * cnt);
+    // $('#my_text').html($('input').val());
+
+});
