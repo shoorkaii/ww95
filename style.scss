@@ -1,0 +1,17 @@
+@import "new_style";
+@import "profile_style";
+
+@mixin transform($value){
+  -webkit-transform: rotate($value); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+  -ms-transform: rotate($value); /* IE 9 */
+  transform: rotate($value);
+}
+
+body{
+  color: red;
+  border-radius: 50%;
+  transform: rotate(30deg);
+
+  //@include transform(30deg);
+}
+
