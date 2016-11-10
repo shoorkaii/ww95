@@ -1,12 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-var Hello = React.createClass({
-   render:function () {
-       return(<p>Hello World!</p>)
-   }
-});
+import Hello from './hello.jsx';
 
 
-
-render(<Hello/>, document.getElementById('container'));
+render(<Hello data={'reza'}/>, document.getElementById('container'));
