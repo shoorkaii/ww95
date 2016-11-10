@@ -5,7 +5,7 @@
 var webpack = require('webpack');
 var path = require('path');
 
-var BUILD_DIR = path.resolve(__dirname, 'bundle');
+var BUILD_DIR = path.resolve(__dirname, '');
 var APP_DIR = path.resolve(__dirname, '');
 var IMG_DIR = path.resolve(__dirname, '../images');
 

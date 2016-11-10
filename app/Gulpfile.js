@@ -39,7 +39,7 @@ gulp.task('webpack', function () {
         gulp.src(DIR_NAME + '/script.jsx')
             .pipe(webpack(require('./webpack.config.js')))
             .pipe(rename({suffix: '.min'}))
-            .pipe(gulp.dest(DIR_NAME));
+            .pipe(gulp.dest(DIR_NAME + '/app'));
 
         console.log("webpack watcher ...");
     });
@@ -58,6 +58,18 @@ gulp.task('sass', function () {
 
 });
 
-gulp.task('default', ['sass'], function () {
+gulp.task('default', ['webpack'], function () {
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
