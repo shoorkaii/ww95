@@ -8,6 +8,7 @@ var sass = require('gulp-sass');
 var watch = require('gulp-watch');
 var rename = require('gulp-rename');
 var autoprefixer = require('gulp-autoprefixer');
+var webpack = require('gulp-webpack');
 
 var DIR_NAME = path.resolve(__dirname , '../');
 
@@ -28,6 +29,20 @@ gulp.task('hello', function () {
 gulp.task('path', function () {
 
     console.log(DIR_NAME);
+});
+
+
+gulp.task('webpack', function () {
+
+    return watch([DIR_NAME + '/**/*.jsx'], function () {
+
+        gulp.src(DIR_NAME + '/script.jsx')
+            .pipe(webpack(require('./webpack.config.js')))
+            .pipe(rename({suffix: '.min'}))
+            .pipe(gulp.dest(DIR_NAME));
+
+        console.log("webpack watcher ...");
+    });
 });
 
 gulp.task('sass', function () {
